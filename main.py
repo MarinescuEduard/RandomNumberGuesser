@@ -1,7 +1,7 @@
 from random import randrange
 insertedNumber = randrange(1, 10)
 numberOfTries = int(0)
-condition = 1
+condition = 0
 print("Insert a number smaller or equal to 10:")
 guessedNumber = int(input())
 while condition != 1:
